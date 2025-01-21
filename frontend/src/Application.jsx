@@ -7,6 +7,14 @@ import Register from "./components/Register";
 import Ticket from "./components/Ticket";
 import TicketList from "./components/TicketList";
 import TicketView from "./components/TicketView";
+import CRUD from "./components/CRUD";
+import Boton from "./components/Button";
+import SideBar from "./components/SideBar";
+import Tarjeta from "./components/Tarjeta";
+import Landingpage from "./pages/Landingpage";
+import NavBar from "./components/NavBar";
+import InicioSesion from "./pages/InicioSesion";
+
 
 /*
     colors: {
@@ -28,24 +36,31 @@ const Application = () => {
   return (
     <Flowbite>
       <div
-        className={`${styles.background_feed} grid place-items-center py-2 font-roboto`}
+        className={`${styles.background} font-roboto`}
       >
         {/* */}
+        <NavBar />
         <Routes>
           <Route path="/" element={<>Inicio</>} />
           <Route path="/login" element={<Login />} />
-          <Route path="/test" element={<Test />} />
-          <Route path="/footer" element={<PageFooter />} />
           <Route path="/register" element={<Register />} />
           <Route path="/ticket" element={<Ticket />} />
+          <Route path="/test" element={<Test />} />
           <Route path="/ticketlist" element={<TicketList />} />
           <Route path="/ticketview" element={<TicketView />} />
+          <Route path="/sidebar" element={<SideBar />} />
+          <Route path="/button" element={<Boton />} />
+          <Route path="/CRUD" element={<CRUD />} />
+          <Route path="/tarjeta" element={<Tarjeta />} />
+          <Route path="/landingpage" element={<Landingpage />} /> 
+          <Route path="/iniciosesion" element={<InicioSesion />} /> 
           <Route path="/*" element={<>not found</>} />
         </Routes>
+        <PageFooter />
       </div>
-      <div className="grid place-items-center my-2">
+{/*       <div className="grid place-items-center my-2">
         <DarkThemeToggle />
-      </div>
+      </div> */}
     </Flowbite>
   );
 };
