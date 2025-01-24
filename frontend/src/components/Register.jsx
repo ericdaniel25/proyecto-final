@@ -13,11 +13,11 @@ const Register = () => {
     */
 
   return (
-    <div className="py-2">
-      <h1 className="drop-shadow-md text-center text-white text-xl pb-4">
+    <div className="py-2 flex justify-center items-center flex-col">
+      <h1 className="drop-shadow-md text-center text-white text-4xl pb-4 font-bold">
         Registro
       </h1>
-      <Card className="max-w-sm bg-white/19 backdrop-blur-2xl backdrop-saturate-90 rounded-lg border border-gray-200/30 drop-shadow-2xl shadow-2xl">
+      <Card className="sm:w-96 bg-white/19 backdrop-blur-2xl backdrop-saturate-90 rounded-lg border border-gray-200/30 drop-shadow-2xl shadow-2xl">
         <form className="flex max-w-md flex-col gap-4 ">
           <div>
             <div className="mb-2 block">

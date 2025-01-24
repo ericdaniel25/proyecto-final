@@ -22,7 +22,7 @@ const Ticket = () => {
 
   return (
     <div className="py-2">
-      <h1 className="drop-shadow-md text-center text-white text-xl pb-4">
+      <h1 className="drop-shadow-md text-center text-white text-4xl font-bold pb-4">
         Ticket
       </h1>
       <Card className="max-w-sm bg-white/19 backdrop-blur-2xl backdrop-saturate-90 rounded-lg border border-gray-200/30 drop-shadow-2xl shadow-2xl">

@@ -1,8 +1,8 @@
 import { Table, Button } from "flowbite-react";
 function CRUD() {
   return (
-    <div className="w-full h-screen overflow-x-auto">
-      <Table className="drop-shadow-md">
+    <div className="w-full overflow-x-auto shadow-2xl">
+      <Table className="drop-shadow-2xl">
         <Table.Head>
           <Table.HeadCell className="bg-white/30  dark:border-gray-700 dark:bg-gray-800/70 dark:text-white">
             Nombre
@@ -23,9 +23,15 @@ function CRUD() {
             <Table.Cell>JhonDoe@gmail.com</Table.Cell>
             <Table.Cell>
               <Button.Group>
-                <Button className="bg-azul2">Editar</Button>
-                <Button className="bg-red-500">Eliminar</Button>
-                <Button className="bg-yellow-400">Dar admin</Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-azul2">
+                  Editar
+                </Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-red-500">
+                  Eliminar
+                </Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-yellow-400">
+                  Dar admin
+                </Button>
               </Button.Group>
             </Table.Cell>
           </Table.Row>
@@ -36,9 +42,15 @@ function CRUD() {
             <Table.Cell>ElonMusk@gmail.com</Table.Cell>
             <Table.Cell>
               <Button.Group>
-                <Button className="bg-azul2">Editar</Button>
-                <Button className="bg-red-500">Eliminar</Button>
-                <Button className="bg-yellow-400">Dar admin</Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-azul2">
+                  Editar
+                </Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-red-500">
+                  Eliminar
+                </Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-yellow-400">
+                  Dar admin
+                </Button>
               </Button.Group>
             </Table.Cell>
           </Table.Row>
@@ -49,9 +61,15 @@ function CRUD() {
             <Table.Cell>SteveJobs@gmail.com</Table.Cell>
             <Table.Cell>
               <Button.Group>
-                <Button className="bg-azul2">Editar</Button>
-                <Button className="bg-red-500">Eliminar</Button>
-                <Button className="bg-yellow-400">Dar admin</Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-azul2">
+                  Editar
+                </Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-red-500">
+                  Eliminar
+                </Button>
+                <Button className="hover:-translate-y-1 hover:scale-110  duration-300 bg-yellow-400">
+                  Dar admin
+                </Button>
               </Button.Group>
             </Table.Cell>
           </Table.Row>

@@ -1,7 +1,7 @@
 import Boton from "../components/Button";
 const Landingpage = () => {
   const styles = {
-    cuerpo:"h-screen w-screen sm:w-full sm:h-full bg-gradient-to-b from-azul4 via-azul3 to-azul1 flex flex-row items-center justify-center text-gray-100",
+    cuerpo:"h-screen w-screen sm:w-full sm:h-screen bg-gradient-to-b from-azul4 via-azul3 to-azul1 flex flex-row items-center justify-center text-gray-100",
     caja:"flex flex-col sm:flex-row items-center justify-around  text-gray-100 sm:px-24 sm:py-10",
     imagen:"w-3/4 drop-shadow-2xl",
     caja2:"grid place-items-center px-10",

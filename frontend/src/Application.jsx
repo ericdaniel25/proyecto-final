@@ -14,6 +14,10 @@ import Tarjeta from "./components/Tarjeta";
 import Landingpage from "./pages/Landingpage";
 import NavBar from "./components/NavBar";
 import InicioSesion from "./pages/InicioSesion";
+import Registrarse from "./pages/Registrarse";
+import CrearTicket from "./pages/CrearTicket";
+import Dashboard from "./pages/Dashboard";
+import Admincrud from "./pages/Admincrud";
 
 
 /*
@@ -28,7 +32,7 @@ import InicioSesion from "./pages/InicioSesion";
     */
 const Application = () => {
   const styles = {
-    background: "bg-gradient-to-tr from-azul4 via-[#52A2AB] to-azul1",
+    background: "bg-gradient-to-tr from-azul4 via-azul3 to-azul1",
     background_feed:
       "bg-gradient-to-b from-[#EFFFFB] via-[#BFCCC8] to-[#8f9996]",
   };
@@ -54,6 +58,10 @@ const Application = () => {
           <Route path="/tarjeta" element={<Tarjeta />} />
           <Route path="/landingpage" element={<Landingpage />} /> 
           <Route path="/iniciosesion" element={<InicioSesion />} /> 
+          <Route path="/registrarse" element={<Registrarse />} /> 
+          <Route path="/crearticket" element={<CrearTicket />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/admincrud" element={<Admincrud />} />
           <Route path="/*" element={<>not found</>} />
         </Routes>
         <PageFooter />
