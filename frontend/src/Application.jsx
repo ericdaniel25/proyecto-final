@@ -18,6 +18,7 @@ import Registrarse from "./pages/Registrarse";
 import CrearTicket from "./pages/CrearTicket";
 import Dashboard from "./pages/Dashboard";
 import Admincrud from "./pages/Admincrud";
+import { AuthProvider } from "./context/AuthContext";
 
 
 /*
@@ -38,6 +39,7 @@ const Application = () => {
   };
 
   return (
+    <AuthProvider>
     <Flowbite>
       <div
         className={`${styles.background} font-roboto`}
@@ -70,6 +72,7 @@ const Application = () => {
         <DarkThemeToggle />
       </div> */}
     </Flowbite>
+    </AuthProvider>
   );
 };
 
